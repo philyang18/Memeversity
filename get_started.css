@@ -1,0 +1,73 @@
+html, body {
+	background-color: #a1e4fc;
+	font-family: 'Dosis', sans-serif;
+}
+.myNav-container {
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 0;
+	color: white;
+	width: 100%;
+}
+.myNav-container img {
+	background-color: white;
+	border-radius: 5px;
+	color: white;
+}
+#title-id{
+	margin-top: 50px;
+	margin-bottom: 45px;
+}
+.myNav-text{
+	color: white;
+}
+
+#myContainer {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+}
+
+.myInput-format {
+	height: 50px;
+	margin: auto;
+	border-radius: 0;
+}
+#new-info {
+	text-align: left;
+	width: 350px;
+	margin:auto;
+}
+.mySpacing{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#private-text {
+	margin-bottom: 20px;
+}
+#myStart-btn {
+	background-color: #002c75;
+	height: 50px;
+	width: 250px;
+	border-radius: 0;
+	margin: auto;
+}
+#myStart-btn:hover {
+	color: black;
+}
+
+.my-wrong-input {
+	font-style: italic;
+	color: red;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.myNav-container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#myContainer {
+		width: 80%;
+	}
+}
